@@ -35,3 +35,8 @@
     cursor: pointer;
     border: 1px solid grey;
 }
+
+.filter-btn {
+    margin: 10px;
+    cursor: pointer;
+}
