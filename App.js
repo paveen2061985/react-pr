@@ -25,6 +25,8 @@ const HeadingComponent = () => {
   return (
     <div className="container">
       <Title />
+      <Title></Title>
+      {Title()}
       {subHeading}
       <h1 className="head" tabIndex="1">
         React Functional Components are really Awesome 😍
