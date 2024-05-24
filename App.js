@@ -1,20 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const parent = React.createElement(
-  "div",
-  { id: "parent" },
-  [
-    React.createElement("div", { id: "child" }, [
-      React.createElement("h1", {}, "Welcome to React!"),
-      React.createElement("h2", {}, "React is Awesome!"),
-    ]),
-    React.createElement("div", { id: "child2" }, [
-      React.createElement("h1", {}, "React Library is Powerful 🚀"),
-      React.createElement("h2", {}, "We can build performant enterprise application using react "),
-    ])
-  ]
+
+// React Element
+const heading = (
+  <h1 className="head" tabIndex="1">
+    React is Awesome Library ❤️
+  </h1>
 );
-console.log("Elements :: ", parent);
+
+// React Component
+
+// Render React Element
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(heading);
